@@ -12,6 +12,8 @@ Currently, **the project's foundation is laid out in an Entity-Relationship Diag
 <img width="1124" alt="Screenshot 2024-03-28 at 9 14 25 PM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/6cd67171-84de-493e-a995-f95ca82059a6">
 
 ### Image 3: View Stock Database:
+<img width="1118" alt="Screenshot 2024-03-28 at 9 17 19 PM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/0a5ba666-d7e5-4cf2-a680-f25c93a7333a">
+
 
 ## Data Integrity (Normalizing Relations):
 In the development of MarketMosaic, a significant emphasis has been placed on the rigorous process of relational database design, specifically through the methodical decomposition of relations based on identified functional dependencies. This critical step ensures that our database structure adheres to the principles of normalization, specifically achieving the Boyce-Codd Normal Form (BCNF) and the Third Normal Form (3NF) where only primary keys and candidate keys serve as functional dependencies. Such a meticulous approach to decomposition enhances the database's efficiency by eliminating redundancy and ensuring data integrity, making it more streamlined for transaction processing and query optimization. 
