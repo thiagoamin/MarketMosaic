@@ -8,7 +8,8 @@ export default function ViewStock() {
         isin:"",
         symbol:"",
         marketCap:null,
-        type:""
+        type:"",
+        companyName:""
     });
 
     const{isin}=useParams();
@@ -47,7 +48,10 @@ export default function ViewStock() {
                     <li className="list-group-item">
                       <b>Type:</b>
                       {stock.type}
-                      
+                    </li>
+                    <li className="list-group-item">
+                      <b>Company Name:</b>
+                      {stock.companyName}
                     </li>
                   </ul>
                 </div>

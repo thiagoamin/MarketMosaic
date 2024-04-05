@@ -11,10 +11,11 @@ export default function AddStock() {
         isin:"",
         symbol:"",
         marketCap:null,
-        type:""
+        type:"",
+        companyName:"",
     })
 
-    const{isin, symbol, marketCap,type} = stock;
+    const{isin, symbol, marketCap,type, companyName} = stock; // stock object
 
     const onInputChange= (e)=>{
         setStock({...stock, [e.target.name]:e.target.value});
@@ -82,6 +83,18 @@ export default function AddStock() {
                 placeholder="Enter Type"
                 name="type"
                 value={type}
+                onChange={(e)=>onInputChange(e)}/>
+            </div>
+            <div className="mb-3">
+                <label htmlFor="Company Name" className="form-label">
+                    Company Name
+                </label>
+                <input 
+                type={"text"}
+                className="form-control"
+                placeholder="Enter Company Name"
+                name="companyName"
+                value={companyName}
                 onChange={(e)=>onInputChange(e)}/>
             </div>
             <button type="submit" className="btn btn-outline-primary">

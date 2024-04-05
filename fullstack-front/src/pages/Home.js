@@ -24,15 +24,22 @@ export default function Home() {
 
     return (
         <div className='container'>
+            <div className="container">
+                <h1>Stocks</h1>
+                <Link className="btn btn-primary mx-1" to="/addstock">
+                    Add Stock
+                </Link>
+            </div>
             <div className='py-4'>
                 <table class="table border shadow">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
+                            <th scope="col">ISIN</th>
                             <th scope="col">Symbol</th>
                             <th scope="col">Market Cap</th>
                             <th scope="col">Type</th>
-                            <th scope="col">ISIN</th>
+                            <th scope="col">Company</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,10 +47,11 @@ export default function Home() {
                             stocks.map((stock, index)=>(
                                 <tr>
                                 <th scope="row" key={index}>{index+1}</th>
+                                <td>{stock.isin}</td>
                                 <td>{stock.symbol}</td>
                                 <td>{stock.marketCap}</td>
                                 <td>{stock.type}</td>
-                                <td>{stock.isin}</td>
+                                <td>{stock.companyName}</td>
                                 <td>
                                     <Link className="btn btn-primary mx-2" to={`/viewstock/${stock.isin}`}>View</Link>
                                     <Link className="btn btn-outline-primary mx-2" to={`/editstock/${stock.isin}`}>Edit</Link>
