@@ -8,12 +8,13 @@ Currently, **the project's foundation is laid out in an Entity-Relationship Diag
 ### Image 1: ERD Diagram Detailing MarketMosaic Database Structure
 <img width="1091" alt="Screenshot 2024-03-16 at 11 15 29 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/2897b3c8-4eea-4980-bd74-07a9cab3b696">
 
-### Image 2: Stock Interface:
+### Image 2: Stock Interface
 <img width="1473" alt="Screenshot 2024-04-08 at 12 17 59 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/34d49d13-d75a-4b00-97fb-8932247f8630">
 
 
-### Image 3: Filter Stocks:
-<img width="1470" alt="Screenshot 2024-04-08 at 12 19 30 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/7751a429-c9ad-4996-b62c-6bf011a525a3">
+### Image 3: Querying
+<img width="1476" alt="Screenshot 2024-04-08 at 12 53 06 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/ac673338-95f2-4a0e-ae21-4e1360ecafb7">
+
 
 
 ## Data Integrity (Normalizing Relations):
