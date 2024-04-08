@@ -12,8 +12,8 @@ Currently, **the project's foundation is laid out in an Entity-Relationship Diag
 <img width="1473" alt="Screenshot 2024-04-08 at 12 17 59 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/34d49d13-d75a-4b00-97fb-8932247f8630">
 
 
-### Image 3: View Stock Database:
-<img width="1118" alt="Screenshot 2024-03-28 at 9 17 19 PM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/0a5ba666-d7e5-4cf2-a680-f25c93a7333a">
+### Image 3: Filter Stocks:
+<img width="1470" alt="Screenshot 2024-04-08 at 12 19 30 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/7751a429-c9ad-4996-b62c-6bf011a525a3">
 
 
 ## Data Integrity (Normalizing Relations):
