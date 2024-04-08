@@ -8,8 +8,9 @@ Currently, **the project's foundation is laid out in an Entity-Relationship Diag
 ### Image 1: ERD Diagram Detailing MarketMosaic Database Structure
 <img width="1091" alt="Screenshot 2024-03-16 at 11 15 29 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/2897b3c8-4eea-4980-bd74-07a9cab3b696">
 
-### Image 2: Add Stock Interface:
-<img width="1124" alt="Screenshot 2024-03-28 at 9 14 25 PM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/6cd67171-84de-493e-a995-f95ca82059a6">
+### Image 2: Stock Interface:
+<img width="1473" alt="Screenshot 2024-04-08 at 12 17 59 AM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/34d49d13-d75a-4b00-97fb-8932247f8630">
+
 
 ### Image 3: View Stock Database:
 <img width="1118" alt="Screenshot 2024-03-28 at 9 17 19 PM" src="https://github.com/thiagoamin/MarketMosaic/assets/122248078/0a5ba666-d7e5-4cf2-a680-f25c93a7333a">
